@@ -1,3 +1,14 @@
 body { 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+/* navigation bar*/
+
+#menu {
+    font-size: 100%;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
