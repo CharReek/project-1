@@ -4,20 +4,52 @@
     margin:0;
     padding: 0;
     border: none;
+    background-color:#F5F5F5;
 }
 
 body { 
     font-family: Raleway, sans-serif;
     font-weight: 300;
+    color: black;
+}
+/*heading and title*/
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 6px;
+    color:black
+}
+
+#title{ 
+    float: left;
+    font-size: 250%;
 }
 
 /* navigation bar*/
 
 #menu {
     font-size: 100%;
+    letter-spacing: 6px;
 }
+
+#menu, #logo{
+    line-height: 50px;
+}
+
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit; 
+}
+#menu a:hover {
+    border-bottom: 2px dotted black;
+}
+
+.active{
+    border-bottom: 2px dotted black;
 }
