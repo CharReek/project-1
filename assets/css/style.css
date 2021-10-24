@@ -84,3 +84,15 @@ h1, h2 {
 
     position: absolute;
 }
+
+/* inspiration section*/
+
+#inspo { 
+    padding: 25px;
+}
+
+#inspo-pic{ 
+    height: 300px;
+    width: 100%;
+    background: url(../images/inspopic.jpg) center center;
+}
