@@ -118,8 +118,9 @@ h1, h2 {
     height: 367px;
     width: 531px;
     background: url(../images/inspo2.jpg) no-repeat center center;
-    float: right;
     position: relative;
+    left: 700px;
+    bottom: 420px;
 }
 
 
