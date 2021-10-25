@@ -85,28 +85,64 @@ h1, h2 {
     position: absolute;
 }
 
-/* inspiration section*/
+/* inspiration section */
 
 
 #inspo { 
     padding: 25px;
     text-align: center;
     font-size: 200%;
-    border-bottom: 4px dotted black;
-    width: 300px;
-    float: left;
+}
+#inspo-header { 
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#inspo-text {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+#inspo-about-text {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    text-align: left;
 }
 
 #inspo-pic{ 
     height: 367px;
     width: 531px;
-    background: url(../images/inspo2.jpg) no-repeat center;
-    float: right
+    background: url(../images/inspo2.jpg) no-repeat center center;
+    float: right;
+    position: relative;
 }
 
-#inspo-text {
-    float: left;
-    width: 50%;
-    background-color: red;
-    padding-top: 50px;
+
+
+/*footer*/
+footer {
+   text-align: center;
+   padding: 3px;
+   height:50px ;
+   clear: both;
+   background-color: rgba(255, 100, 0, .5);
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 100%;
+    margin: 1%;
+    color: #000;
 }
