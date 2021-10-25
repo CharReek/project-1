@@ -87,12 +87,26 @@ h1, h2 {
 
 /* inspiration section*/
 
+
 #inspo { 
     padding: 25px;
+    text-align: center;
+    font-size: 200%;
+    border-bottom: 4px dotted black;
+    width: 300px;
+    float: left;
 }
 
 #inspo-pic{ 
-    height: 300px;
-    width: 100%;
-    background: url(../images/inspopic.jpg) center center;
+    height: 367px;
+    width: 531px;
+    background: url(../images/inspo2.jpg) no-repeat center;
+    float: right
+}
+
+#inspo-text {
+    float: left;
+    width: 50%;
+    background-color: red;
+    padding-top: 50px;
 }
