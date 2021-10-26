@@ -156,3 +156,36 @@ footer {
     margin: 1%;
     color: #000;
 }
+
+/* recipe page header */
+
+#recipe-header{
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#cake-info{
+    width: 100%;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+/* cook/prep time & servings */
+.time-table {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+th, td {
+    padding: 5px;
+}
+
+.time-table i {
+    color:rgba(255, 100, 0, .7);
+}
