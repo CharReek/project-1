@@ -87,42 +87,51 @@ h1, h2 {
 
 /* inspiration section */
 
-
-#inspo { 
-    padding: 25px;
+#inspo {
+    height: 500px;
+}
+#inspo-header { 
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
     text-align: center;
     font-size: 200%;
 }
-#inspo-header { 
-    width: 50%;
-    padding-top: 50px;
+
+#inspo-left {
+    padding-top: 30px;
+    width: 60%;
+    float: left;
+}
+
+#inspo-right{
+    padding-top: 30px;
+    width: 40%;
+    float: right;
+}
+
+.inspo-text-left {
+    width: 80%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 20px;
     padding-left: 50px;
 }
 
-#inspo-text {
-    width: 50%;
-    padding-top: 20px;
-    padding-left: 50px;
-    text-align: left;
+#pic-border {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 40px;
 }
-
-#inspo-about-text {
-    width: 50%;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    text-align: left;
+#inspo-pic {
+    background: url(../images/inspopic2.jpg) no-repeat center center;
+    height: 100%;
 }
-
-#inspo-pic{ 
-    height: 367px;
-    width: 531px;
-    background: url(../images/inspo2.jpg) no-repeat center center;
-    position: relative;
-    left: 700px;
-    bottom: 420px;
-}
-
 
 
 /*footer*/
