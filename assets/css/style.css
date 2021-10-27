@@ -284,6 +284,61 @@ th, td {
     font-size: 200%;
 }
 
+#benefits p {
+    margin: 40px;
+    text-align: center;
+}
+#benefits h3 {
+    margin: 10px;
+    text-align: center;
+}
+
+#list-benefits{
+    margin: 40px;
+    text-align: center;
+}
+#sams-recommendations{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+#benefits-right{
+    padding-top: 30px;
+    width: 40%;
+    float: right;
+}
+#benefits-left{
+    padding-top: 30px;
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+
+#benefits-text-left {
+    width: 80%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+#benefits-pic-border{
+    width: 450px;
+    height: 600px;
+    padding: 20px;
+    border-style: dotted;
+    border-color:rgba(255, 100, 0, .7);
+    border-width: 2px;
+    margin:60px;
+    float: right;
+}
+
+#benefits-pic {
+    background: url(../images/benefits.jpg) no-repeat center center;
+    height: 100%;
+}
+
 i:hover {
     font-size: 30px ;
 }
