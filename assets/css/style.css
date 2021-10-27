@@ -124,7 +124,7 @@ h1, h2 {
     height: 400px;
     padding: 20px;
     border-style: dotted;
-    border-color: black;
+    border-color:rgba(255, 100, 0, .7);
     border-width: 2px;
     margin-bottom: 40px;
 }
@@ -192,14 +192,72 @@ th, td {
 .time-table i {
     color:rgba(255, 100, 0, .7);
 }
-/*ingredients*/
+/*ingredients & instructions*/
+
+#recipe {
+    width: 70%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
 
 .recipe-header {
     width: 100%;
-    padding-top: 100px;
-    padding-left: 50px;
-    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
     font-size: 200%;
+}
+
+.second-header {
+    width: 100%;
+    font-size: 120%;
+}
+
+.list{
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+#recipe-right{
+    padding-top: 30px;
+    width: 40%;
+    float: right;
+}
+#recipe-left{
+    padding-top: 30px;
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+
+.recipe-text-left {
+    width: 80%;
+    float: left;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+#recipe-pic-border {
+    width: 500px;
+    height: 637px;
+    padding: 20px;
+    border-style: dotted;
+    border-color:rgba(255, 100, 0, .7);
+    border-width: 2px;
+    margin:60px;
+    float: right;
+}
+#recipe-pic {
+    background: url(../images/cake2.jpg) no-repeat center center;
+    height: 100%;
+}
+#notes {
+    margin: 40px;
+    text-align: center;
 }
 
 /* benefits page */
