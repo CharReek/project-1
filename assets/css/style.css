@@ -71,6 +71,7 @@ h1, h2 {
     font-size: 120%;
     font-family: Montserrat, sans-serif;
     letter-spacing: 3px;
+    color:black;
 
     width: 450px;
     height: 60px;
@@ -85,6 +86,10 @@ h1, h2 {
     position: absolute;
 }
 
+#header-text h3 {
+    background-color: transparent;
+}
+
 /* inspiration section */
 
 #inspo {
@@ -95,7 +100,10 @@ h1, h2 {
     padding-top: 50px;
     padding-left: 50px;
     text-align: center;
-    font-size: 200%;
+    font-size: 200%;text-decoration-line:underline ;
+    text-decoration-style: dotted;
+    text-decoration-color: rgba(255, 100, 0, .7);
+
 }
 
 #inspo-left {
@@ -117,6 +125,11 @@ h1, h2 {
     clear: both;
     margin-bottom: 20px;
     padding-left: 50px;
+}
+.inspo-text-left h2 {
+    text-decoration-line:underline ;
+    text-decoration-style: dotted;
+    text-decoration-color: rgba(255, 100, 0, .7);
 }
 
 #pic-border {
@@ -142,19 +155,28 @@ footer {
    clear: both;
    background-color: rgba(255, 100, 0, .5);
 }
+footer p {
+    background-color: transparent;
+}
 
 .social-networks {
     text-align: center;
+    background-color: transparent;
 }
 
 .social-networks > li {
     display: inline;
+    background-color: transparent;
 }
 
 .social-networks i {
     font-size: 100%;
     margin: 1%;
     color: #000;
+    background-color: transparent;
+}
+.social-networks a {
+    background-color: transparent;
 }
 
 /* recipe page header */
@@ -185,6 +207,9 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+.time-table i:hover{
+    font-size: 40px;
+}
 th, td {
     padding: 5px;
 }
@@ -195,12 +220,21 @@ th, td {
 /*ingredients & instructions*/
 
 #recipe {
-    width: 70%;
+    width: 60%;
     float: left;
     line-height: 30px;
     clear: both;
     margin-bottom: 20px;
     padding-left: 50px;
+}
+#main-recipe-header {
+    width: 100%;
+    padding-top: 80px;
+    font-size: 200%;
+    text-decoration-line:underline ;
+    text-decoration-style: dotted;
+    text-decoration-color: rgba(255, 100, 0, .7);
+    text-align: center;
 }
 
 .recipe-header {
@@ -236,7 +270,7 @@ th, td {
 }
 
 .recipe-text-left {
-    width: 80%;
+    width: 60%;
     float: left;
     line-height: 30px;
     clear: both;
@@ -276,12 +310,23 @@ th, td {
 
 /* benefits page */
 
-.benefits-header {
+#main-header{
     width: 100%;
-    padding-top: 100px;
-    padding-left: 50px;
+    padding-top: 70px;
+    font-size: 200%;
+    text-align: center;
+    text-decoration-line:underline ;
+    text-decoration-style: dotted;
+    text-decoration-color: rgba(255, 100, 0, .7);
+}
+#benefits-header {
+    width: 100%;
+    padding: 20px;
     text-align: center;
     font-size: 200%;
+    text-decoration-line:underline ;
+    text-decoration-style: dotted;
+    text-decoration-color: rgba(255, 100, 0, .7);
 }
 
 #benefits p {
@@ -293,29 +338,24 @@ th, td {
     text-align: center;
 }
 
-#list-benefits{
-    margin: 40px;
-    text-align: center;
-}
-#sams-recommendations{
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    font-size: 200%;
-}
 #benefits-right{
     padding-top: 30px;
     width: 40%;
     float: right;
 }
 #benefits-left{
-    padding-top: 30px;
+    padding-top: 10px;
     width: 60%;
     float: left;
     text-align: left;
 }
+.list-benefits {
+    margin: 30px;
+    text-align: center;
+    list-style-type: none;
+}
 
-#benefits-text-left {
+.benefits-text-left {
     width: 80%;
     float: left;
     line-height: 30px;
@@ -324,21 +364,22 @@ th, td {
     padding-left: 50px;
 }
 #benefits-pic-border{
-    width: 450px;
-    height: 600px;
+    width: 390px;
+    height: 530px;
     padding: 20px;
     border-style: dotted;
     border-color:rgba(255, 100, 0, .7);
     border-width: 2px;
-    margin:60px;
-    float: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 #benefits-pic {
-    background: url(../images/benefits.jpg) no-repeat center center;
+    background: url(../images/benefits2.jpg) no-repeat center center;
     height: 100%;
 }
-
-i:hover {
-    font-size: 30px ;
+#benefits-notes {
+    margin-top: 100px;
+    text-align: center;
+    line-height: 30px;
 }
