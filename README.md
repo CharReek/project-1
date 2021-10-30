@@ -50,7 +50,7 @@ inset pic here of it on all the screens
  * I would like to implement more reciepes into the recipe page so users have more choice regarding recipes. 
  * Another section i would want to add is a blog styled page where users can keep up to date on all the activites and foods that Sam and I try. 
  * In the future i would like to impliment a Chat/ Forum function so people can connect with one and another and discuss what recipes they have that they like and other tips for a healthy dog.
- 
+
 
 ## Testing
 
@@ -59,6 +59,20 @@ inset pic here of it on all the screens
 ## Unfixed Bugs
 
 ## Deployment
+I deployed my site using github using the following process: 
+1. Go to your git hub repositories and click on the repository you want to deploy 
+2. Go into the settings page, this can be found across the top bar 
+3. Then find the pages tab, this can be located on the left hand side
+4. Once you are on the pages tab find the source section.
+5. The source section will contain a drop down menu.
+6. From this drop down menu select the main branch
+7. After you have done this click save. 
+8. The page will then refresh and a banner will appear with the live link to your page 
+9. Finally click the link and this will take you to the live page. 
+
+Notes the live page may take a few minutes to be deployed so may not work straight away 
+
+The live link to my website can be found below 
 
 ## Credits 
 
