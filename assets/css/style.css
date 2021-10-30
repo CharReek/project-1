@@ -48,7 +48,7 @@ h1, h2 {
     color: inherit; 
 }
 #menu a:hover {
-    border-bottom: 2px dotted black;
+    border-bottom: 2px dotted rgba(255, 100, 0, .7);
 }
 
 .active{
