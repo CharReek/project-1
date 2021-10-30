@@ -106,3 +106,4 @@ All pictures used are my own of my dog
 * The code used for the footer was taken from the Code Insitute Love Running Project
 * Recipe is from based of one from: http://www.bakedbyjoanna.com/2011/08/banana-carob-oat-cake-with-peanut-butter-frosting.html
 * Sven Lowry_5P from slack helped me fixed my footer issue code - clear:both
+* I used the bolier plate lesson from love running to help set up the basic structure of my page 
