@@ -53,15 +53,18 @@ A dogs life is a site for those who want to get the best out of their dogs diet 
 
 
 ## Testing
-when it came to testing my site page i have ensured that all the pages work are are linked properly, i also tested the social media links to make sure that these all worked and opened in a new tab. 
+When it came to testing my site page i have ensured that all the pages work are are linked properly, i also tested the social media links to make sure that these all worked and opened in a new tab. 
+* I tested this on chrome, edge and on mobile devices
+* I tested that is was recponsive on all devices using dev tools 
 
 ### Bugs 
 When i deployed my page i diecovered that my pictures were not visible due to using an absolut file path instead of a relative style path. 
  * To fix this bug i changed all my image paths to relative paths by taking of the "/" at the begining 
   * Once i had made these changes the pictures shows on the brower
 
-Another issue i found that was when i tested the page on my personal device the pictures sis not show up in the place i wanted them to. 
-  * I fixed this by making changed to my responsive design so the the pictures were where i wanted them and were not cut of the edge of the screen. 
+Another issue i found that was when i tested the page on my personal device the pictures did not show up in the place i wanted them to. 
+  * I fixed this by making changed to my responsive design so the the pictures were where i wanted them and were not cut of the edge of the screen when on a smaller device.
+  * I replaced my header and heading text so that everything was readable on a phone.
   
 
 ## Validator testing
