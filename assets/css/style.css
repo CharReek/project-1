@@ -534,7 +534,7 @@ th, td {
         height :90%
     }
     #inspo-left {
-        width: 80%;
+        width: 90%;
     }
     #pic-border{
         width: 90%;
@@ -576,6 +576,9 @@ th, td {
 
 @media screen and (max-width: 380px){
     #header-text{
-        right: 180px;
+        right: 24px;
+    }
+    #header{
+        width: 400px;
     }
 }
