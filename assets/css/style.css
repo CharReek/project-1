@@ -574,7 +574,7 @@ th, td {
 
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 450px){
     #header-text{
         right: 24px;
     }
