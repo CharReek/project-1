@@ -515,9 +515,30 @@ th, td {
         float: left;
         margin-left: 20px;
     }
+    #header{
+        width: 550px;
+    }
+    #header-text {
+        width: 350px;
+        margin: 0 auto;
+        font-size: 100%;
+        letter-spacing: 0 ;
+        padding: 0;
+    }
 
     #inspo-right {
         margin-left: 10%;
+    }
+    #inspo-pic {
+        width: 90%;
+        height :90%
+    }
+    #inspo-left {
+        width: 80%;
+    }
+    #pic-border{
+        width: 90%;
+        height :90%
     }
     #main-recipe-header {
         padding-top: 125px;
@@ -525,11 +546,36 @@ th, td {
         width: 90%;
         text-align: center;
     }
+    #cake-info{
+        width: 80%;
+    }
+    #recipe-pic{
+        width: 80%;
+        height :80%;
+    }
     #recipe-pic-border {
         margin:0 auto;
+        width: 80%;
+        height :80%;
+
+    }
+    #benefits-header{
+        font-size: 20px;
+    }
+    #benefits-pic{
+        width: 90%;
+        height :90%;
     }
     #benefits-pic-border {
         margin:0 auto;
+        width: 80%;
+        height :80%;
     }
 
+}
+
+@media screen and (max-width: 380px){
+    #header-text{
+        right: 180px;
+    }
 }
