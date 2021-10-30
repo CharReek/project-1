@@ -53,16 +53,27 @@ inset pic here of it on all the screens
 
 
 ## Testing
+when it came to testing my site page i have ensured that all the pages work are are linked properly, i also tested the social media links to make sure that these all worked and opened in a new tab. 
+
+### Bugs 
+When i deployed my page i diecovered that my pictures were not visible due to using an absolut file path instead of a relative style path. 
+ * To fix this bug i changed all my image paths to relative paths by taking of the "/" at the begining 
+  * Once i had made these changes the pictures shows on the brower
+
+Another issue i found that was when i tested the page on my personal device the pictures sis not show up in the place i wanted them to. 
+  * I fixed this by making changed to my responsive design so the the pictures were where i wanted them and were not cut of the edge of the screen. 
+  
 
 ## Validator testing
 * HTML 
    * No errors were found when it was ran through the W3C validator
 
 * CSS  
-   *  
+   *  No errors were found when it was ran through the (Jigsaw) validator
 
 
 ## Unfixed Bugs
+No unfixed bugs 
 
 ## Deployment
 I deployed my site using github using the following process: 

@@ -484,8 +484,8 @@ th, td {
     }
 }
 
-/* 640px wide and down small screen*/
-@media screen and (max-width: 670px){
+/* 900px wide and down medium screen*/
+@media screen and (max-width: 900px){
     
     #menu {
         clear: both;
@@ -507,4 +507,29 @@ th, td {
     #benefits-pic-border {
         margin-left: 15%;
     }
+}
+/* 600px wide and down for small screens */
+@media screen and (max-width: 600px){
+    #menu {
+        clear: both;
+        float: left;
+        margin-left: 20px;
+    }
+
+    #inspo-right {
+        margin-left: 10%;
+    }
+    #main-recipe-header {
+        padding-top: 125px;
+        margin: 0 ;
+        width: 90%;
+        text-align: center;
+    }
+    #recipe-pic-border {
+        margin:0 auto;
+    }
+    #benefits-pic-border {
+        margin:0 auto;
+    }
+
 }
