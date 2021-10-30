@@ -55,6 +55,12 @@ inset pic here of it on all the screens
 ## Testing
 
 ## Validator testing
+* HTML 
+   * No errors were found when it was ran through the W3C validator
+
+* CSS  
+   *  
+
 
 ## Unfixed Bugs
 
