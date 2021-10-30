@@ -23,6 +23,7 @@ h1, h2 {
 #title{ 
     float: left;
     font-size: 250%;
+    margin-left: 20px;
 }
 
 /* navigation bar*/
@@ -116,6 +117,7 @@ h1, h2 {
     padding-top: 30px;
     width: 40%;
     float: right;
+    margin: 0 auto;
 }
 
 .inspo-text-left {
@@ -140,6 +142,7 @@ h1, h2 {
     border-color:rgba(255, 100, 0, .7);
     border-width: 2px;
     margin-bottom: 40px;
+    text-align: center;
 }
 #inspo-pic {
     background: url(../images/inspopic2.jpg) no-repeat center center;
@@ -293,8 +296,10 @@ th, td {
     text-decoration-color: rgba(255, 100, 0, .7);
 }
 #notes {
-    margin: 40px;
+    margin: 20px;
     text-align: center;
+    line-height: 30px;
+    padding-right: 100px;
 }
 #recipe-right p {
     line-height: 30px;
@@ -334,6 +339,7 @@ th, td {
     padding-top: 30px;
     width: 40%;
     float: right;
+    text-align: center;
 }
 #benefits-left{
     padding-top: 10px;
@@ -385,31 +391,122 @@ th, td {
         width: 100%;
         height: 1000px;
         margin: 10px auto;
+        text-align: center;
     }
     #inspo-header{
         padding: 20px;
         margin: 0 ;
+        text-align: center;
     }
-    #inspo-left, #inspo-right {
+    #inspo-left {
         width: 100%;
         float: left;
+        text-align: center;
+    }
+    .inspo-text-left{
+        width: 90%;
+        float: left;
+        text-align: center;
     }
     #inspo-right{
-        clear: both;
-        margin-left: 60px;
+        width: 70%;
+        margin-left: 30%;
+        float: left;
+    }
+/* recipe responsive*/
+    #recipe-main {
+        width: 100%;
+        height: 2600px;
+        margin: 10px auto; 
     }
     
     #main-recipe-header {
         padding-top: 70px;
+        padding-left: 30px;
         margin: 0 ;
         width: 90%;
+        text-align: center;
     }
     #cake-info{
         width: 90%;
-        margin: 10px auto;
     }
     .time-table {
         width: 70%;
+        margin: 10px auto;
+    }
+    #recipe-left {
+        width: 100%;
+        float: left;
+    } 
+    #recipe-right{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #recipe-right p {
+        width: 100%;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    #recipe-right h3 {
+        width: 90%;
+        float:left;
+        margin-left: 20px;
+    }
+
+    #recipe-pic-border {
+        margin-right: 25%;
+    }
+/*benefits responsive*/
+     #benefits {
+        width: 100%;
+        height: 1200px;
+        margin: 10px auto;
+    }
+    #main-header{
+        padding-top: 100px;
+        margin: 0 ;
+        text-align: center;
+    }
+    #benefits-left{
+        width: 100%;
+        float: left;
     }
    
+    #benefits-right {
+        width: 100%;
+        clear:both;
+        float: left;
+    }
+    #benefits-pic-border {
+        margin-left: 25%;
+    }
+}
+
+/* 640px wide and down small screen*/
+@media screen and (max-width: 670px){
+    
+    #menu {
+        clear: both;
+        float: left;
+        margin-left: 20px;
+    }
+    #inspo-right {
+        margin-left:15% ;
+    }
+    #main-recipe-header {
+        padding-top: 125px;
+        margin: 0 ;
+        width: 90%;
+        text-align: center;
+    }
+    #recipe-pic-border {
+        margin-right: 10%;
+    }
+    #benefits-pic-border {
+        margin-left: 15%;
+    }
+
+
 }
