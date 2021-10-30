@@ -72,7 +72,9 @@ I deployed my site using github using the following process:
 
 Notes the live page may take a few minutes to be deployed so may not work straight away 
 
-The live link to my website can be found below 
+The live link to my website can be found below:
+
+https://charreek.github.io/project-1/benefits.html 
 
 ## Credits 
 
